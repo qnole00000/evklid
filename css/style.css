@@ -1,0 +1,461 @@
+body {
+    color: #333333;
+}
+
+ul {
+    list-style: none;    
+}
+
+a {
+    text-decoration: none;
+}
+
+.input {
+    background-color: #414141;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+
+.section {
+    /* width: 1770px; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+.button {
+    background-color: #FF9900;
+    color: #FFFFFF;
+    font-size: 23px;
+    padding: 30px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.button:focus {
+    outline: 2px solid #FF9900;
+}
+
+.section__header {
+    font-size: 48px;
+    display: block;
+}
+
+/* HEADER */
+.section-header {
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.header__burger {
+    background-image: url("../img/header__burger.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 30px;
+    height: 23px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: none;
+}
+
+.header__logo {
+    display: flex;
+    cursor: pointer;
+} 
+
+.header__img {
+   text-align: center;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu__list {
+    display: flex;  
+    margin: 0;       
+    
+}
+
+.menu__item {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 85px;
+}
+
+/* HERO */
+
+
+
+.hero__elements {
+    margin-left: 10%;
+    color: #ffffff; 
+    width: 50%;  
+}
+
+.hero__header {  
+    font-size: 80px; 
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+}
+
+.hero__text {
+    font-size: 24px;   
+    margin-bottom: 85px;
+}
+
+.hero__button {
+    margin-bottom: 95px;
+}
+
+/* ABOUT */
+.section-about {
+    flex-direction: column;
+}
+
+.about__info {
+    width: 70vw;
+    margin-bottom: 50px;
+}
+
+.about__cards {
+    display: flex;
+    
+}
+
+.about__card {
+    background-image: url("../img/about_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 49%;
+    margin-right: 20px;
+    align-content: end;
+
+    background-size: cover;
+
+}
+
+.about__text {
+    line-height: 1.5;
+}
+
+.about__card-texts {
+    display: flex;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+
+}
+
+.about__card-text {
+    color: #fff; 
+    display: inline-block;
+    width: 60%;
+    line-height: 1.5;
+}
+
+.about__button {
+    color: #fff;
+    padding: 15px 30px;
+    border: solid 2px #FF9900;
+    display: inline-block;
+    align-content: center;
+    margin: 30px 0;
+    
+
+}
+
+.about__panels {
+    width: 48%;
+   
+}
+
+.about__panel {
+   display: flex;
+   border: solid 1px #CACACA;
+   padding: 50px 50px 80px 50px; 
+}
+
+.about__panel:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.about__img {
+   width: 30%;
+   margin-right: 120px;
+}
+
+.about__img-one {
+    display: none;
+}
+
+.about__panel-texts {
+    width: 70%;
+}
+
+/* how */
+
+.section__how {
+    flex-direction: column;
+}
+
+.how__steps {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    cursor: pointer;
+}
+
+/* .how__step:not(:last-child) {
+    margin-right: 80px;
+} */
+
+.how__step:hover {
+    color: #E1670E;
+}
+
+.how__step:active {
+    outline: 2px solid #FF9900;
+}
+
+.how__middle {
+    display: flex; 
+}
+
+.how__left {
+ 
+    width: 49%;
+}
+.how__right {
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+/* .how__middle {
+    display: flex; 
+}
+
+.how__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+
+}
+
+.how__right {
+    width: 49%;
+} */
+
+.how__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.how__button {
+    font-size: 16px;
+    padding: 20px 30px;
+}
+
+.how__button:not(:last-child) {
+    margin-right: 20px;
+}
+
+.how__button--white {
+    background-color: #fff;
+    color: #333333;
+}
+
+/* FAQ */
+
+.section-faq {
+    display: block;
+}
+
+.faq__point {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: solid 2px #CACACA;
+
+}
+
+.faq__point:last-child {
+    border-bottom: solid 2px #CACACA;
+}
+
+.point__text {
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+}
+
+/* footer */
+
+.footer {
+    background-color: #222222;
+    color: #CACACA;
+}
+
+.section-footer {
+    display: flex;
+   padding: 40px 0;
+   justify-content: space-between;
+}
+
+.footer__left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__middle {
+    width: 35%;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__heading {
+    color: #CACACA;
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.footer__right {
+    width: 25%;
+    padding: 50px;
+}
+
+
+
+.footer__li {
+    padding-bottom: 10px;
+    margin-left: -35px;
+}
+
+.footer__url {
+    color: #CACACA;
+    font-size: 18px;
+}
+
+.footer__button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.footer-textarea {
+    min-height: 150px;
+    height: 150px;
+    max-height: 250px;
+}
+
+.footer__social-icon {
+    cursor: pointer;
+}
+
+.footer__social-icon:active {
+    outline: 2px solid #FF9900;
+}
+
+/* SWIPER */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+
+}
+
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+.slide-1 {
+    background-image: url("../img/hero_logo_1.jpg");
+}
+
+.slide-2 {
+    background-image: url("../img/hero_logo_2.jpg");
+}
+
+.slide-3 {
+    background-image: url("../img/hero_logo_3.jpg");
+}
+
+/* jquery (аккардион) */
+
+table {
+	font-size: 1em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+.ui-state-active {
+    background: none;
+    color: #222222;
+}
+
+.ui-accordion-header-icon {
+    display: none;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ui-state-default {
+    background: none;
+}
+
+.ui-state-active {
+    border: 1px solid #c5c5c5;
+}
+
+.ui-widget {
+    font-family: unset;
+}
+
+/* TABS */
+
+.tab-content {
+    display: none;
+    margin-top: 30px;
+}
+
+.tab-content-active {
+    display: flex;
+}

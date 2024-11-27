@@ -1,0 +1,266 @@
+@media (max-width:1024px) {
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .header__burger {
+        display: inline-block;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .hero__elements {
+        width: 80%;
+    }
+
+    .about__cards {
+        display: unset;
+
+    }
+
+    .about__card {
+        width: 100%;
+        height: 640px;
+        margin-bottom: 20px;
+    }
+
+    .about__panels {
+        width: 100%;
+
+    }
+
+    .footer__right {
+        display: none;
+    }
+
+    .footer__middle {
+        width: 60%;
+
+    }
+}
+
+@media (max-width:768px) {
+    .hero__header {
+        font-size: 50px;
+
+    }
+
+    .hero__text {
+        font-size: 18px;
+    }
+
+    .about__card-text {
+        width: 80%;
+    }
+
+    .how__steps {
+        margin-bottom: 50px;
+    }
+
+    .how__middle {
+        flex-direction: column-reverse;
+    }
+
+    .how__left {
+        width: auto;
+    }
+
+    .how__right {
+        width: auto;
+        overflow: hidden;
+        height: 284px;
+
+    }
+
+    .how__img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .section-footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer__middle {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .footer__left {
+        width: 80%;
+    }
+
+    .footer__social {
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__ul {
+        display: none;
+    }
+}
+
+@media (max-width:320px) {
+    .header {
+        margin-top: 20px;
+    }
+    
+    .header__logo {
+        height: 35px;
+        width: 110px;
+    }
+
+    .hero__header {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .hero__text {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hero__button {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .button {
+        padding: 15px 30px;
+    }
+
+    .hero__buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section__header {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .about__info {
+        width: 100%;
+    }
+    
+    .about__panel {
+        display: block;
+    }
+
+    .about__text {
+        font-size: 14px;
+
+    }
+ 
+    .about__card {
+        background-image: unset;
+        height: unset;
+    }
+
+    .about__button {
+        margin: 0;
+        color: #E1670E;
+        padding: 10px 30px;
+    }
+
+    .about__img-one {
+        display: unset;
+        width: 100%;
+    }
+
+    .about__card-texts {
+        flex-direction: column;
+        display: unset;
+        padding: 0;
+        background-color: #fff;
+        
+    }
+
+    .about__card-text {
+        width: 100%;
+        color: #333333;
+    }
+    
+    .about__panel {
+        border: unset;
+        padding: unset;
+    }
+
+    .about__panel-texts {
+        width: 100%;
+    }
+
+    .how__right {
+        height: unset;
+    }
+
+    .footer__middle {
+        width: 100%;
+    }
+
+    .footer__left {
+        width: 100%;
+    }
+
+    .how {
+        margin-bottom: 150px;
+    }
+
+    .how__buttons {
+        display: flex;
+        
+    }
+
+    .how__button {
+        width: 45%;
+        font-size: 12px;
+    }
+
+    .faq__img {
+        width: 30px;
+    }
+
+    .point__text {
+        font-size: 14px;
+    }
+
+    .footer__heading {
+        font-size: 24px;
+    }
+
+    .footer__button-check {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__checkbox {
+        margin-top: 20px;
+    }
+
+    .footer__menu {
+        text-align: center;
+    }
+
+    .footer__logo {
+        height: 42px;
+    }
+
+    .footer__social {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer__social-icon {
+        width: 40px;
+    }
+
+    .footer__social-icon:not(:last-child) {
+        margin-right: 20px;
+    }
+}
