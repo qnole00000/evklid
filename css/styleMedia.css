@@ -1,3 +1,31 @@
+/* 320, 480, 768, 1024, 1200 */
+
+@media (max-width:1200px) {
+    .about__info {
+        width: 100%;
+    }
+
+    .section {
+        margin-bottom: 30px;
+    }
+
+    .hero__elements {
+        width: 70%;
+    }
+
+    .about__panel {
+        padding: 20px;
+    }
+
+    .about__img {
+        margin-right: 40px;
+    }
+
+    .menu__item:not(:last-child) {
+        margin-right: 60px;
+    }
+}
+
 @media (max-width:1024px) {
 
     .section {
@@ -12,8 +40,22 @@
         display: none;
     }
 
+    .hero__header {
+        font-size: 60px;
+        margin-top: 80px;
+    }
+
+    .hero__text {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
     .hero__elements {
         width: 80%;
+    }
+
+    .hero__button {
+        margin-bottom: 60px;
     }
 
     .about__cards {
@@ -23,7 +65,7 @@
 
     .about__card {
         width: 100%;
-        height: 640px;
+        height: 480px;
         margin-bottom: 20px;
     }
 
@@ -43,6 +85,18 @@
 }
 
 @media (max-width:768px) {
+
+    .section__header,
+    .footer__heading {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 36px;
+    }
+
+    .section-footer {
+        padding: 0 0 40px 0;
+    }
+
     .hero__header {
         font-size: 50px;
 
@@ -57,7 +111,7 @@
     }
 
     .how__steps {
-        margin-bottom: 50px;
+        margin-bottom: 0;
     }
 
     .how__middle {
@@ -78,6 +132,16 @@
     .how__img {
         width: 100%;
         object-fit: cover;
+        margin-bottom: 40px;
+    }
+
+    .how__buttons {
+        display: flex;
+        gap: 20px;
+    }
+
+    .how__button {
+        width: 50%;
     }
 
     .section-footer {
@@ -85,12 +149,23 @@
     }
 
     .footer__middle {
-        width: 80%;
+        width: 100%;
         margin-bottom: 30px;
     }
 
     .footer__left {
-        width: 80%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer__button-check {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__checkbox {
+        margin-bottom: 20px;
     }
 
     .footer__social {
@@ -102,13 +177,45 @@
     .footer__ul {
         display: none;
     }
+
+    .point__text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:480px) {
+    .hero__elements {
+        text-align: center;
+    }
+
+    .hero__button {
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .about__card-texts {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about__card-text {
+        width: 100%;
+    }
+
+    .about__button {
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
 }
 
 @media (max-width:320px) {
     .header {
         margin-top: 20px;
     }
-    
+
     .header__logo {
         height: 35px;
         width: 110px;
@@ -148,7 +255,7 @@
     .about__info {
         width: 100%;
     }
-    
+
     .about__panel {
         display: block;
     }
@@ -157,7 +264,7 @@
         font-size: 14px;
 
     }
- 
+
     .about__card {
         background-image: unset;
         height: unset;
@@ -167,6 +274,14 @@
         margin: 0;
         color: #E1670E;
         padding: 10px 30px;
+    }
+
+    .about__img {
+        display: none;
+    }
+
+    .about__panel-heading {
+        text-align: center;
     }
 
     .about__img-one {
@@ -179,14 +294,14 @@
         display: unset;
         padding: 0;
         background-color: #fff;
-        
+
     }
 
     .about__card-text {
         width: 100%;
         color: #333333;
     }
-    
+
     .about__panel {
         border: unset;
         padding: unset;
@@ -209,16 +324,16 @@
     }
 
     .how {
-        margin-bottom: 150px;
+        margin-bottom: 50px;
     }
 
     .how__buttons {
         display: flex;
-        
+        flex-direction: column;
     }
 
     .how__button {
-        width: 45%;
+        width: 100%;
         font-size: 12px;
     }
 
