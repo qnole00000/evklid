@@ -98,8 +98,8 @@
     }
 
     .hero__header {
-        font-size: 50px;
-
+        font-size: 38px;
+        margin-top: 40px;
     }
 
     .hero__text {
@@ -194,6 +194,11 @@
 
     }
 
+    .about__panel-heading {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .about__card-texts {
         flex-direction: column;
         justify-content: center;
@@ -208,6 +213,12 @@
         width: 100%;
         box-sizing: border-box;
         text-align: center;
+    }
+
+    .footer__social {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
     }
 }
 
